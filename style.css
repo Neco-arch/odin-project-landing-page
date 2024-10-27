@@ -23,7 +23,7 @@ header,footer{
     background-color: #1F2937;
     align-items: center;
     margin: 0;
-    padding: 16px;
+    padding: 32px;
 }
 
 .logo {
@@ -119,4 +119,65 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.warpper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px;
+    width: 900px;
+    margin: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.Quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.Quote-author {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.CallAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.CallAction-box {
+    display: flex;
+    width: 1000px;
+    height: 140px;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.text-1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.CallAction-button {
+    border-style: solid;
 }
